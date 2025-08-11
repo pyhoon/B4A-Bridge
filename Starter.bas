@@ -62,6 +62,10 @@ Sub Service_Start (StartingIntent As Intent)
 
 End Sub
 
+Private Sub Service_Timeout(Params As Map)
+	Service.StopForeground(51042)
+End Sub
+
 'Return true to allow the OS default exceptions handler to handle the uncaught exception.
 Sub Application_Error (Error As Exception, StackTrace As String) As Boolean
 	Return True
