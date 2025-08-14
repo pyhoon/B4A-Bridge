@@ -1,0 +1,725 @@
+--release
+--output
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects
+--lib
+D:\Android5\platforms\android-36\android.jar
+--min-api
+21
+D:\Android5\tools\..\extras\b4a_local\unpacked-b4ashared-63836764842113\dex_v1\b4ashared.zip
+d:\android5\tools\..\extras\b4a_local\unpacked-appcompat-63701720421512\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\core\core\1.16.0\unpacked-core-1.16.0\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\versionedparcelable\versionedparcelable\1.2.1\unpacked-versionedparcelable-1.2.1\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\annotation\annotation-experimental\1.5.0\unpacked-annotation-experimental-1.5.0\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\lifecycle\lifecycle-runtime-android\2.9.1\unpacked-lifecycle-runtime-android-2.9.1\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\core\core-viewtree\1.0.0\unpacked-core-viewtree-1.0.0\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\appcompat\appcompat\1.7.1\unpacked-appcompat-1.7.1\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\activity\activity\1.10.1\unpacked-activity-1.10.1\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\core\core-ktx\1.16.0\unpacked-core-ktx-1.16.0\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\lifecycle\lifecycle-viewmodel-android\2.9.1\unpacked-lifecycle-viewmodel-android-2.9.1\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\savedstate\savedstate-android\1.3.0\unpacked-savedstate-android-1.3.0\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\lifecycle\lifecycle-viewmodel-savedstate-android\2.9.1\unpacked-lifecycle-viewmodel-savedstate-android-2.9.1\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\lifecycle\lifecycle-livedata-core\2.9.1\unpacked-lifecycle-livedata-core-2.9.1\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\appcompat\appcompat-resources\1.7.1\unpacked-appcompat-resources-1.7.1\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\vectordrawable\vectordrawable\1.2.0\unpacked-vectordrawable-1.2.0\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\vectordrawable\vectordrawable-animated\1.2.0\unpacked-vectordrawable-animated-1.2.0\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\cursoradapter\cursoradapter\1.0.0\unpacked-cursoradapter-1.0.0\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\drawerlayout\drawerlayout\1.2.0\unpacked-drawerlayout-1.2.0\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\customview\customview\1.2.0\unpacked-customview-1.2.0\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\fragment\fragment\1.8.8\unpacked-fragment-1.8.8\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\loader\loader\1.1.0\unpacked-loader-1.1.0\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\viewpager\viewpager\1.1.0\unpacked-viewpager-1.1.0\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\emoji2\emoji2-views\1.5.0\unpacked-emoji2-views-1.5.0\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\emoji2\emoji2\1.5.0\unpacked-emoji2-1.5.0\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\emoji2\emoji2\1.5.0\unpacked-emoji2-1.5.0\jars\repackaged.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\startup\startup-runtime\1.2.0\unpacked-startup-runtime-1.2.0\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\emoji2\emoji2-views-helper\1.5.0\unpacked-emoji2-views-helper-1.5.0\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\arch\core\core-runtime\2.2.0\unpacked-core-runtime-2.2.0\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\legacy\legacy-support-v4\1.0.0\unpacked-legacy-support-v4-1.0.0\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\media\media\1.7.0\unpacked-media-1.7.0\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\legacy\legacy-support-core-utils\1.0.0\unpacked-legacy-support-core-utils-1.0.0\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\documentfile\documentfile\1.1.0\unpacked-documentfile-1.1.0\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\localbroadcastmanager\localbroadcastmanager\1.1.0\unpacked-localbroadcastmanager-1.1.0\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\print\print\1.1.0\unpacked-print-1.1.0\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\legacy\legacy-support-core-ui\1.0.0\unpacked-legacy-support-core-ui-1.0.0\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\coordinatorlayout\coordinatorlayout\1.3.0\unpacked-coordinatorlayout-1.3.0\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\slidingpanelayout\slidingpanelayout\1.2.0\unpacked-slidingpanelayout-1.2.0\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\interpolator\interpolator\1.0.0\unpacked-interpolator-1.0.0\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\swiperefreshlayout\swiperefreshlayout\1.1.0\unpacked-swiperefreshlayout-1.1.0\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\asynclayoutinflater\asynclayoutinflater\1.1.0\unpacked-asynclayoutinflater-1.1.0\jars\classes.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\multidex\multidex\2.0.1\unpacked-multidex-2.0.1\jars\classes.zip
+D:\Android5\tools\..\extras\b4a_local\unpacked-byteconverter-63597767535512\dex_v1\byteconverter.zip
+D:\Android5\tools\..\extras\b4a_local\unpacked-core-63886973576538\dex_v1\core.zip
+D:\Android5\tools\..\extras\b4a_local\unpacked-javaobject-63678815705628\dex_v1\javaobject.zip
+D:\Android5\tools\..\extras\b4a_local\unpacked-network-63835106490343\dex_v1\network.zip
+D:\Android5\tools\..\extras\b4a_local\unpacked-phone-63856880123702\dex_v1\phone.zip
+D:\Android5\tools\..\extras\b4a_local\unpacked-randomaccessfile-63727801826980\dex_v1\randomaccessfile.zip
+D:\Android5\tools\..\extras\b4a_local\unpacked-runtimepermissions.androidx-63821648906446\dex_v1\runtimepermissions.zip
+D:\Android5\tools\..\extras\b4a_local\unpacked-appcompat-63677011823313\dex_v1\appcompat.zip
+D:\Android5\tools\..\extras\b4a_local\unpacked-bitmapcreator-63696351130935\dex_v1\bitmapcreator.zip
+D:\Android5\tools\..\extras\b4a_local\unpacked-xui-63835539504011\dex_v1\xui.zip
+D:\Android5\tools\..\extras\b4a_local\unpacked-dateutils-63518456530552\dex_v1\dateutils.zip
+D:\Android5\tools\..\extras\b4a_local\unpacked-xcustomlistview-63748386485699\dex_v1\xcustomlistview.zip
+D:\Android5\tools\..\extras\b4a_local\unpacked-ime-63581359160441\dex_v1\ime.zip
+D:\Android5\tools\..\extras\b4a_local\unpacked-stringutils-63623511752161\dex_v1\stringutils.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\annotation\annotation\1.9.1\annotation-1.9.1.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\annotation\annotation-jvm\1.9.1\annotation-jvm-1.9.1.zip
+D:\Android5\tools\..\extras\b4a_local\unpacked-org.jetbrains.kotlin-kotlin-stdlib-63856815550412\dex_v1\org.jetbrains.kotlin-kotlin-stdlib.zip
+D:\Android5\tools\..\extras\b4a_local\unpacked-org.jetbrains.kotlinx-kotlinx-coroutines-android-63856815820583\dex_v1\org.jetbrains.kotlinx-kotlinx-coroutines-android.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\lifecycle\lifecycle-common\2.9.1\lifecycle-common-2.9.1.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\lifecycle\lifecycle-common-jvm\2.9.1\lifecycle-common-jvm-2.9.1.zip
+D:\Android5\tools\..\extras\b4a_local\unpacked-org.jetbrains.kotlinx-kotlinx-coroutines-core-jvm-63856815712036\dex_v1\org.jetbrains.kotlinx-kotlinx-coroutines-core-jvm.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\arch\core\core-common\2.2.0\core-common-2.2.0.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\collection\collection\1.5.0\collection-1.5.0.zip
+d:\android5\tools\..\extras\b4a_remote\androidx\collection\collection-jvm\1.5.0\collection-jvm-1.5.0.zip
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\activity\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\activity\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\activity\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\activity\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\activity\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\activity\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\activity\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\activity\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\activity\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\activity\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\activity\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\activity\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\activity\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\activity\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\activity\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\activity\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\activity\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\annotation\experimental\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\annotation\experimental\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\annotation\experimental\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\annotation\experimental\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\annotation\experimental\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\annotation\experimental\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\annotation\experimental\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\annotation\experimental\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\annotation\experimental\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\annotation\experimental\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\annotation\experimental\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\annotation\experimental\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\annotation\experimental\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\annotation\experimental\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\annotation\experimental\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\annotation\experimental\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\annotation\experimental\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\resources\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\resources\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\resources\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\resources\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\resources\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\resources\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\resources\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\resources\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\resources\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\resources\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\resources\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\resources\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\resources\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\resources\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\resources\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\resources\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\appcompat\resources\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\arch\core\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\arch\core\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\arch\core\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\arch\core\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\arch\core\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\arch\core\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\arch\core\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\arch\core\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\arch\core\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\arch\core\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\arch\core\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\arch\core\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\arch\core\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\arch\core\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\arch\core\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\arch\core\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\arch\core\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\asynclayoutinflater\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\asynclayoutinflater\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\asynclayoutinflater\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\asynclayoutinflater\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\asynclayoutinflater\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\asynclayoutinflater\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\asynclayoutinflater\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\asynclayoutinflater\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\asynclayoutinflater\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\asynclayoutinflater\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\asynclayoutinflater\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\asynclayoutinflater\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\asynclayoutinflater\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\asynclayoutinflater\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\asynclayoutinflater\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\asynclayoutinflater\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\asynclayoutinflater\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\coordinatorlayout\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\coordinatorlayout\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\coordinatorlayout\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\coordinatorlayout\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\coordinatorlayout\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\coordinatorlayout\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\coordinatorlayout\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\coordinatorlayout\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\coordinatorlayout\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\coordinatorlayout\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\coordinatorlayout\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\coordinatorlayout\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\coordinatorlayout\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\coordinatorlayout\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\coordinatorlayout\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\coordinatorlayout\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\coordinatorlayout\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\ktx\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\ktx\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\ktx\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\ktx\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\ktx\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\ktx\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\ktx\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\ktx\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\ktx\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\ktx\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\ktx\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\ktx\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\ktx\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\ktx\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\ktx\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\ktx\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\ktx\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\viewtree\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\viewtree\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\viewtree\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\viewtree\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\viewtree\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\viewtree\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\viewtree\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\viewtree\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\viewtree\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\viewtree\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\viewtree\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\viewtree\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\viewtree\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\viewtree\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\viewtree\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\viewtree\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\core\viewtree\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\customview\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\customview\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\customview\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\customview\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\customview\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\customview\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\customview\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\customview\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\customview\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\customview\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\customview\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\customview\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\customview\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\customview\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\customview\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\customview\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\customview\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\documentfile\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\documentfile\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\documentfile\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\documentfile\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\documentfile\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\documentfile\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\documentfile\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\documentfile\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\documentfile\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\documentfile\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\documentfile\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\documentfile\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\documentfile\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\documentfile\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\documentfile\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\documentfile\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\documentfile\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\drawerlayout\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\drawerlayout\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\drawerlayout\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\drawerlayout\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\drawerlayout\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\drawerlayout\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\drawerlayout\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\drawerlayout\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\drawerlayout\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\drawerlayout\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\drawerlayout\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\drawerlayout\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\drawerlayout\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\drawerlayout\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\drawerlayout\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\drawerlayout\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\drawerlayout\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\viewsintegration\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\viewsintegration\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\viewsintegration\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\viewsintegration\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\viewsintegration\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\viewsintegration\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\viewsintegration\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\viewsintegration\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\viewsintegration\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\viewsintegration\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\viewsintegration\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\viewsintegration\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\viewsintegration\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\viewsintegration\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\viewsintegration\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\viewsintegration\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\viewsintegration\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\widget\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\widget\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\widget\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\widget\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\widget\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\widget\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\widget\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\widget\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\widget\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\widget\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\widget\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\widget\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\widget\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\widget\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\widget\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\widget\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\emoji2\widget\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\fragment\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\fragment\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\fragment\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\fragment\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\fragment\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\fragment\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\fragment\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\fragment\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\fragment\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\fragment\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\fragment\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\fragment\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\fragment\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\fragment\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\fragment\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\fragment\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\fragment\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\livedata\core\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\livedata\core\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\livedata\core\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\livedata\core\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\livedata\core\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\livedata\core\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\livedata\core\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\livedata\core\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\livedata\core\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\livedata\core\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\livedata\core\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\livedata\core\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\livedata\core\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\livedata\core\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\livedata\core\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\livedata\core\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\livedata\core\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\runtime\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\runtime\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\runtime\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\runtime\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\runtime\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\runtime\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\runtime\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\runtime\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\runtime\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\runtime\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\runtime\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\runtime\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\runtime\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\runtime\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\runtime\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\runtime\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\runtime\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\lifecycle\viewmodel\savedstate\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\localbroadcastmanager\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\localbroadcastmanager\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\localbroadcastmanager\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\localbroadcastmanager\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\localbroadcastmanager\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\localbroadcastmanager\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\localbroadcastmanager\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\localbroadcastmanager\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\localbroadcastmanager\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\localbroadcastmanager\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\localbroadcastmanager\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\localbroadcastmanager\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\localbroadcastmanager\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\localbroadcastmanager\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\localbroadcastmanager\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\localbroadcastmanager\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\localbroadcastmanager\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\media\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\media\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\media\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\media\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\media\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\media\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\media\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\media\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\media\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\media\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\media\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\media\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\media\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\media\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\media\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\media\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\media\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\print\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\print\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\print\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\print\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\print\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\print\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\print\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\print\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\print\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\print\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\print\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\print\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\print\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\print\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\print\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\print\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\print\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\savedstate\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\savedstate\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\savedstate\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\savedstate\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\savedstate\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\savedstate\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\savedstate\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\savedstate\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\savedstate\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\savedstate\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\savedstate\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\savedstate\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\savedstate\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\savedstate\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\savedstate\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\savedstate\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\savedstate\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\slidingpanelayout\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\slidingpanelayout\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\slidingpanelayout\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\slidingpanelayout\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\slidingpanelayout\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\slidingpanelayout\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\slidingpanelayout\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\slidingpanelayout\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\slidingpanelayout\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\slidingpanelayout\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\slidingpanelayout\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\slidingpanelayout\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\slidingpanelayout\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\slidingpanelayout\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\slidingpanelayout\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\slidingpanelayout\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\slidingpanelayout\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\startup\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\startup\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\startup\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\startup\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\startup\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\startup\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\startup\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\startup\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\startup\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\startup\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\startup\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\startup\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\startup\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\startup\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\startup\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\startup\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\startup\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\swiperefreshlayout\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\swiperefreshlayout\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\swiperefreshlayout\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\swiperefreshlayout\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\swiperefreshlayout\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\swiperefreshlayout\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\swiperefreshlayout\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\swiperefreshlayout\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\swiperefreshlayout\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\swiperefreshlayout\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\swiperefreshlayout\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\swiperefreshlayout\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\swiperefreshlayout\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\swiperefreshlayout\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\swiperefreshlayout\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\swiperefreshlayout\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\swiperefreshlayout\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\animated\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\animated\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\animated\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\animated\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\animated\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\animated\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\animated\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\animated\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\animated\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\animated\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\animated\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\animated\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\animated\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\animated\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\animated\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\animated\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\vectordrawable\animated\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\versionedparcelable\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\versionedparcelable\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\versionedparcelable\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\versionedparcelable\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\versionedparcelable\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\versionedparcelable\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\versionedparcelable\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\versionedparcelable\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\versionedparcelable\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\versionedparcelable\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\versionedparcelable\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\versionedparcelable\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\versionedparcelable\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\versionedparcelable\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\versionedparcelable\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\versionedparcelable\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\versionedparcelable\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\viewpager\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\viewpager\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\viewpager\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\viewpager\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\viewpager\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\viewpager\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\viewpager\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\viewpager\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\viewpager\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\viewpager\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\viewpager\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\viewpager\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\viewpager\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\viewpager\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\viewpager\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\viewpager\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\androidx\viewpager\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\animatedcounter.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\anotherprogressbar$ResumableSub_BusyLoop.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\anotherprogressbar.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\asyncstreamstext.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xbreadcrumb.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xcolortemplate$ResumableSub_Show.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xcolortemplate$_colorpickerpart.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xcolortemplate.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xcombobox$ResumableSub_RaiseEvent.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xcombobox.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xdatetemplate$ResumableSub_Show.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xdatetemplate.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xdialog$ResumableSub_Show.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xdialog$ResumableSub_ShowCustom.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xdialog$ResumableSub_ShowTemplate.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xdialog.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xfloattextfield$ResumableSub_SwitchFromPasswordToRegular.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xfloattextfield.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xformatter$_b4xformatdata.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xformatter.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4ximageview.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xinputtemplate$ResumableSub_Show.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xinputtemplate.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xlisttemplate$ResumableSub_Show.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xlisttemplate.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xloadingindicator$ResumableSub_MainLoop.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xloadingindicator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xlongtexttemplate.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xplusminus$ResumableSub_StartDownLoop.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xplusminus.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xprogressdialog.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xradiobutton$ResumableSub_SetValueImpl.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xradiobutton.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xsearchtemplate$ResumableSub_Show.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xsearchtemplate.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xseekbar.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xsignaturetemplate.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xswitch$ResumableSub_SetValueImpl.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xswitch.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xtimedtemplate$ResumableSub_Show.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\b4xtimedtemplate.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\ftpclient$_ftptask.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\ftpclient.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\ftpdataconnection.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\ftpserver$_ftpuser.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\ftpserver.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\madewithlove.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\main$1.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\main$B4AMenuItemsClickListener.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\main$HandleKeyDelayed.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\main$ResumableSub_Activity_Resume.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\main$ResumableSub_CheckAndRequestNotificationPermission.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\main$ResumableSub_GetDrawOverPermission.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\main$ResumableSub_UdpPing.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\main$ResumeMessage.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\main$WaitForLayout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\main.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\R.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\roundslider.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\scrollinglabel$ResumableSub_StartScrolling.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\scrollinglabel.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\service1$1.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\service1$2.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\service1$ResumableSub_HandleFileClose.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\service1$service1_BR.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\service1.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\starter$1.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\starter$2.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\starter$starter_BR.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\starter.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\swiftbutton.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\utils.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\xuiviewsutils.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\designerscripts\LS_1.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\b4abridge\designerscripts\LS_searchtemplate.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\objects\R$anim.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\objects\R$animator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\objects\R$attr.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\objects\R$bool.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\objects\R$color.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\objects\R$dimen.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\objects\R$drawable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\objects\R$id.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\objects\R$integer.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\objects\R$interpolator.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\objects\R$layout.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\objects\R$mipmap.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\objects\R$string.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\objects\R$style.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\objects\R$styleable.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\objects\R$xml.dex
+C:\Users\H\Documents\B4A Samples\B4A-Bridge\B4A-Bridge\Objects\dexed\anywheresoftware\b4a\objects\R.dex

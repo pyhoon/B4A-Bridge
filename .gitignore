@@ -1,3 +1,9 @@
-**/Objects
 **/AutoBackups
 *.meta
+*.class
+/Objects/bin
+/Objects/dexed
+/Objects/gen
+/Objects/src
+*.dex
+/Objects/b4xlibs
