@@ -38,7 +38,6 @@ Sub Process_Globals
 End Sub
 
 Sub Service_Create
-	
 	Try
 		If WifiServer.IsInitialized = False Then
 			WifiServer.Initialize(6789, "Server")
@@ -61,7 +60,6 @@ Sub Service_Create
 	Catch
 		Log(LastException)
 	End Try
-	
 End Sub
 
 Public Sub SetFTPServerState
@@ -78,7 +76,6 @@ Public Sub SetFTPServerState
 		End If
 	End If
 End Sub
-
 
 Private Sub UpdateNotification
 	Dim icon As String
@@ -97,9 +94,6 @@ Private Sub UpdateNotification
 	Notification1.SetInfo("B4A-Bridge", content, Main)
 	Notification1.Notify(1)
 End Sub
-
-
-
 
 Sub Service_Start (StartingIntent As Intent)
 	Try
@@ -141,7 +135,6 @@ Sub Service_Destroy
 	If FTP.IsInitialized Then FTP.Stop
 End Sub
 
-
 Sub Server_NewConnection (Successful As Boolean, NewSocket As Socket)
 	If Streams.IsInitialized Then Streams.Close
 	Dim Streams As AsyncStreams 'create a new streams object.
@@ -181,7 +174,6 @@ Sub SendVersions
 	Streams.Write(b)
 End Sub
 
-
 Sub Streams_Error
 	If Sender <> Streams Then Return
 	Log(LastException.Message)
@@ -193,8 +185,6 @@ Sub Streams_Terminated
 	UpdateStatus(False, True)
 	Log("Streams_terminated")
 End Sub
-
-
 
 Sub Streams_NewData (Buffer() As Byte)
 	If Streams.IsInitialized = False Then Return
@@ -230,7 +220,7 @@ Sub Streams_NewData (Buffer() As Byte)
 	End Select
 End Sub
 
-Sub CreateRAF(buffer() As Byte) As RandomAccessFile
+Sub CreateRAF (buffer() As Byte) As RandomAccessFile
 	Dim raf As RandomAccessFile
 	raf.Initialize3(buffer, True)
 	Return raf
@@ -308,9 +298,11 @@ Sub LogCat_LogCatData (Buffer() As Byte, Length As Int)
 		Streams.Write(Utils.AddCommandToBytes(LOGCAT_DATA, Buffer, Length))
 	End If
 End Sub
+
 Sub StopLogcat
 	LogCat.LogCatStop
 End Sub
+
 Sub HandleFileStart
 	Log("Installing file.")
 	If Phone.SdkVersion >= 26 Then
@@ -339,7 +331,7 @@ Sub HandleFileStart
 	End If
 End Sub
 
-Sub HandleFilePacket(Buffer() As Byte)
+Sub HandleFilePacket (Buffer() As Byte)
 	Try
 		Out.WriteBytes(Buffer, 1, Buffer.Length - 1)
 	Catch
@@ -398,8 +390,6 @@ End Sub
 Sub PE_ConnectivityChanged (NetworkType As String, State As String, Intent As Intent)
 	If NetworkType = "WIFI" Then CallSub(Main, "UpdateIp")
 End Sub
-
-
 
 Sub UDP_PacketArrived (Packet As UDPPacket)
 	Log(BytesToString(Packet.Data, Packet.Offset, Packet.Length, "UTF8"))
