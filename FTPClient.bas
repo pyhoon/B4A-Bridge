@@ -54,7 +54,6 @@ Private Sub AST_NewText(text As String)
 	Else
 		HandleClientCommand (text.SubString2(0, i), text.SubString(i + 1))
 	End If
-	
 End Sub
 
 Private Sub HandleClientCommand(command As String, parameters As String)
@@ -105,11 +104,10 @@ Private Sub HandleClientCommand(command As String, parameters As String)
 					CloseConnection
 				Case "MKD"
 					Dim folder As String = CombineWithCurrent(parameters)
-					If folder <> "" Then 
+					If folder <> "" Then
 						File.MakeDir(mServer.BaseDir, folder)
 						SendResponse(200, "")
 					End If
-					
 				Case "RNFR"
 					RenameFrom = CombineWithCurrent(parameters)
 					If RenameFrom <> "" Then SendResponse(300, "")
@@ -121,7 +119,7 @@ Private Sub HandleClientCommand(command As String, parameters As String)
 					End If
 				Case "DELE", "RMD"
 					Dim DeleteFile As String = CombineWithCurrent(parameters)
-					If DeleteFile <> "" Then 
+					If DeleteFile <> "" Then
 						If File.Delete(mServer.BaseDir, DeleteFile) Then SendResponse(200, "") Else SendResponse(500, "")
 					End If
 				Case "NOOP"
@@ -174,7 +172,6 @@ Private Sub SetCurrentTask (Path As String, Command As String)
 	currentDataConnection.SetTask(currentTask)
 End Sub
 
-
 Private Sub HandleCredentials
 	If mServer.Users.ContainsKey(user.Name) Then
 		Dim u As FTPUser = mServer.Users.Get(user.Name)
@@ -189,7 +186,7 @@ Private Sub HandleCredentials
 	Error(530, "Invalid username or password.")
 End Sub
 
-Private Sub NormalizePath(p As String) As String
+Private Sub NormalizePath (p As String) As String
 	If p.StartsWith("/") Or p.StartsWith("\") Then p = p.SubString(1)
 	
 	#if B4A Or B4J
@@ -204,7 +201,6 @@ Private Sub NormalizePath(p As String) As String
 		Return ""
 	End If
 	#else if B4i
-	
 		Dim parts As List
 		parts.Initialize
 		For Each part As String In Regex.Split("/", p)
@@ -236,7 +232,7 @@ End Sub
 Private Sub Error (code As Int, msg As String)
 	SendResponse(code, msg)
 	'Log("Error: " & msg)
-	AST.CloseGracefully		
+	AST.CloseGracefully
 End Sub
 
 Private Sub CloseDataConnection
@@ -259,8 +255,7 @@ Private Sub AST_Terminated
 	CloseConnection
 End Sub
 
-
-Private Sub RenameFile(source As String, target As String)
+Private Sub RenameFile (source As String, target As String)
 #if B4A OR B4J
 	Dim joFileSource As JavaObject
 	Dim joFileTarget As JavaObject
