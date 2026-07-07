@@ -52,7 +52,6 @@ Private Sub AfterConnectionAndTask
 	End If
 End Sub
 
-
 Private Sub ssocket_NewConnection (Successful As Boolean, NewSocket As Socket)
 	If Successful Then
 		AStream.Initialize(NewSocket.InputStream, NewSocket.OutputStream, "astream")
@@ -76,7 +75,6 @@ Private Sub RETRTimer_Tick
 		Close
 	End Try
 End Sub
-
 
 Private Sub HandleLIST
 	Dim sb As StringBuilder
@@ -107,7 +105,7 @@ Private Sub HandleLIST
 	AStream.SendAllAndClose
 End Sub
 
-Private Sub Pad(sb As StringBuilder, n As Int, value As String) As StringBuilder
+Private Sub Pad (sb As StringBuilder, n As Int, value As String) As StringBuilder
 	For i = 1 To n - value.Length
 		sb.Append(" ")
 	Next
