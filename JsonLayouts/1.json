@@ -252,8 +252,8 @@
                 "variant1": {
                     "top": 10,
                     "left": 220,
-                    "hanchor": 0,
-                    "width": 194,
+                    "hanchor": 2,
+                    "width": 66,
                     "vanchor": 0,
                     "height": 34
                 },
