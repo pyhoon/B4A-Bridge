@@ -4,7 +4,7 @@ ModulesStructureVersion=1
 Type=Service
 Version=7.3
 @EndOfDesignText@
-#Region  Service Attributes 
+#Region  Service Attributes
 	#StartAtBoot: False
 	#ExcludeFromLibrary: True
 #End Region
@@ -19,7 +19,6 @@ Sub Process_Globals
 End Sub
 
 Sub Service_Create
-	
 	folder = rp.GetSafeDirDefaultExternal("")
 	If folder = File.DirInternal Then
 		ToastMessageShow("Secondary storage is not available. You will need to switch to USB debug mode.", True)
@@ -31,7 +30,6 @@ Sub Service_Create
 		Log(LastException)
 	End Try
 	AcquireMulticastLock
-	
 End Sub
 
 Sub AcquireMulticastLock
@@ -62,7 +60,7 @@ Sub Service_Start (StartingIntent As Intent)
 
 End Sub
 
-Private Sub Service_Timeout(Params As Map)
+Private Sub Service_Timeout (Params As Map)
 	Service.StopForeground(51042)
 End Sub
 
