@@ -1,9 +1,8 @@
-**/AutoBackups
+AutoBackups
 *.meta
-*.class
-/Objects/bin
-/Objects/dexed
-/Objects/gen
-/Objects/src
-*.dex
-/Objects/b4xlibs
+
+# Include png files inside drawable
+Objects/*
+!Objects/res/
+Objects/res/*
+!Objects/res/drawable/
