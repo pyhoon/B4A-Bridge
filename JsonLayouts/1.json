@@ -15,7 +15,7 @@
     "LayoutHeader": {
         "Version": 5,
         "DesignerScript": [
-            "'All variants script\n'AutoScaleAll\nAnimatedSignal1.HorizontalCenter = 50%x",
+            "'All variants script\n'AutoScaleAll\nIf Portrait Then\n\tAnimatedSignal1.HorizontalCenter = 50%x\n'\tbtnStartWireless.HorizontalCenter = 50%x\n'\tbtnStop.HorizontalCenter = 50%x\nElse\n'\tbtnStartWireless.VerticalCenter = 50%y\n'\tbtnStop.VerticalCenter = 50%y\n'\t'btnStartWireless.Left = 100%x - 240dip\n'\tbtnStop.HorizontalCenter = lblVersion.HorizontalCenter\n'    btnStop.Left = btnWirelessStart.Left\nEnd If",
             "'Variant specific script: 320x480,scale=1",
             "'Variant specific script: 480x320,scale=1\n"
         ],
@@ -116,10 +116,10 @@
                 },
                 "vanchor": 0,
                 "variant1": {
-                    "top": 8,
-                    "left": 178,
+                    "top": 10,
+                    "left": 24,
                     "hanchor": 0,
-                    "width": 100,
+                    "width": 170,
                     "vanchor": 0,
                     "height": 40
                 },
@@ -183,12 +183,12 @@
                 },
                 "vanchor": 0,
                 "variant1": {
-                    "top": 144,
-                    "left": 156,
-                    "hanchor": 0,
-                    "width": 100,
-                    "vanchor": 0,
-                    "height": 40
+                    "top": 38,
+                    "left": 30,
+                    "hanchor": 2,
+                    "width": 30,
+                    "vanchor": 1,
+                    "height": 30
                 },
                 "type": ".LabelWrapper",
                 "enabled": true,
@@ -250,10 +250,10 @@
                 },
                 "vanchor": 0,
                 "variant1": {
-                    "top": 12,
-                    "left": 24,
+                    "top": 10,
+                    "left": 220,
                     "hanchor": 0,
-                    "width": 360,
+                    "width": 194,
                     "vanchor": 0,
                     "height": 34
                 },
@@ -318,9 +318,9 @@
                 },
                 "vanchor": 0,
                 "variant1": {
-                    "top": 12,
-                    "left": 436,
-                    "hanchor": 0,
+                    "top": 10,
+                    "left": 24,
+                    "hanchor": 1,
                     "width": 32,
                     "vanchor": 0,
                     "height": 34
@@ -386,9 +386,9 @@
                 },
                 "vanchor": 0,
                 "variant1": {
-                    "top": 56,
-                    "left": 280,
-                    "hanchor": 0,
+                    "top": 60,
+                    "left": 30,
+                    "hanchor": 1,
                     "width": 180,
                     "vanchor": 0,
                     "height": 72
@@ -397,9 +397,9 @@
                 "enabled": true,
                 "variant0": {
                     "top": 83,
-                    "left": 96,
+                    "left": 90,
                     "hanchor": 0,
-                    "width": 128,
+                    "width": 145,
                     "vanchor": 0,
                     "height": 66
                 },
@@ -461,11 +461,11 @@
                 },
                 "vanchor": 0,
                 "variant1": {
-                    "top": 100,
-                    "left": 24,
-                    "hanchor": 0,
+                    "top": 81,
+                    "left": 30,
+                    "hanchor": 1,
                     "width": 228,
-                    "vanchor": 0,
+                    "vanchor": 1,
                     "height": 54
                 },
                 "type": ".ButtonWrapper",
@@ -530,11 +530,11 @@
                 },
                 "vanchor": 0,
                 "variant1": {
-                    "top": 100,
-                    "left": 24,
-                    "hanchor": 0,
+                    "top": 81,
+                    "left": 30,
+                    "hanchor": 1,
                     "width": 228,
-                    "vanchor": 0,
+                    "vanchor": 1,
                     "height": 54
                 },
                 "type": ".ButtonWrapper",
@@ -599,9 +599,9 @@
                 },
                 "vanchor": 0,
                 "variant1": {
-                    "top": 66,
-                    "left": 24,
-                    "hanchor": 0,
+                    "top": 200,
+                    "left": 30,
+                    "hanchor": 1,
                     "width": 228,
                     "vanchor": 0,
                     "height": 24
@@ -670,9 +670,9 @@
                     "top": 52,
                     "left": 24,
                     "hanchor": 0,
-                    "width": 200,
+                    "width": 330,
                     "vanchor": 0,
-                    "height": 42
+                    "height": 80
                 },
                 "type": ".LabelWrapper",
                 "enabled": true,
@@ -736,11 +736,11 @@
                 },
                 "vanchor": 0,
                 "variant1": {
-                    "top": 176,
-                    "left": 24,
-                    "hanchor": 0,
-                    "width": 432,
-                    "vanchor": 0,
+                    "top": 68,
+                    "left": 30,
+                    "hanchor": 2,
+                    "width": 30,
+                    "vanchor": 1,
                     "height": 10
                 },
                 "type": ".CustomViewWrapper",
@@ -816,11 +816,11 @@
                 },
                 "vanchor": 0,
                 "variant1": {
-                    "top": 278,
+                    "top": 10,
                     "left": 24,
                     "hanchor": 0,
                     "width": 200,
-                    "vanchor": 0,
+                    "vanchor": 1,
                     "height": 22
                 },
                 "type": ".LabelWrapper",
@@ -885,10 +885,10 @@
                 },
                 "vanchor": 0,
                 "variant1": {
-                    "top": 290,
-                    "left": 0,
-                    "hanchor": 2,
-                    "width": 480,
+                    "top": 10,
+                    "left": 20,
+                    "hanchor": 1,
+                    "width": 210,
                     "vanchor": 1,
                     "height": 26
                 },
