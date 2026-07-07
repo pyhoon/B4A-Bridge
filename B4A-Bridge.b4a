@@ -11,18 +11,19 @@ Library6=randomaccessfile
 Library7=runtimepermissions
 Library8=xui views
 Library9=appcompat
-ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: http://www.basic4ppc.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="5" android:targetSdkVersion="35"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~'End of default text.~\n~SetServiceAttribute(Starter, android:foregroundServiceType, shortService)~\n~CreateResourceFromFile(Macro, Core.NetworkClearText)~\n~AddManifestText(~\n~<queries>~\n~        <package android:name="anywheresoftware.b4a.designer" />~\n~    </queries>~\n~)~\n~~\n~'CreateResourceFromFile(Macro, Themes.LightTheme)~\n~SetApplicationAttribute(android:theme, "@style/MyAppTheme")~\n~~\n~CreateResource(values, theme.xml,~\n~<resources>~\n~    <style name="MyAppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">~\n~	 <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>~\n~    </style>~\n~</resources>~\n~)~\n~~\n~~\n~~\n~AddApplicationText(~\n~  <provider~\n~  android:name="android.support.v4.content.FileProvider"~\n~  android:authorities="$PACKAGE$.provider"~\n~  android:exported="false"~\n~  android:grantUriPermissions="true">~\n~  <meta-data~\n~  android:name="android.support.FILE_PROVIDER_PATHS"~\n~  android:resource="@xml/provider_paths"/>~\n~  </provider>~\n~)~\n~CreateResource(xml, provider_paths,~\n~   <external-files-path name="name" path="" />~\n~)~\n~AddPermission(android.permission.REQUEST_INSTALL_PACKAGES)~\n~~\n~SetApplicationAttribute(android:icon, "@mipmap/ic_launcher")~\n~CreateResource(mipmap-anydpi-v26, ic_launcher.xml,~\n~<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">~\n~    <background android:drawable="@mipmap/background"/>~\n~    <foreground android:drawable="@mipmap/foreground"/>~\n~</adaptive-icon>~\n~)~\n~~\n~AddPermission(android.permission.CHANGE_WIFI_MULTICAST_STATE)~\n~AddPermission(android.permission.SYSTEM_ALERT_WINDOW)~\n~AddPermission(android.permission.CHANGE_NETWORK_STATE)~\n~AddPermission(android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE)~\n~SetServiceAttribute(Service1, android:foregroundServiceType, connectedDevice)~\n~
-Module1=AsyncStreamsText
-Module2=FTPClient
-Module3=FTPDataConnection
-Module4=FTPServer
-Module5=Service1
-Module6=Starter
-Module7=Utils
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: http://www.basic4ppc.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="5" android:targetSdkVersion="35"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~'End of default text.~\n~SetServiceAttribute(Starter, android:foregroundServiceType, shortService)~\n~CreateResourceFromFile(Macro, Core.NetworkClearText)~\n~AddManifestText(~\n~<queries>~\n~        <package android:name="anywheresoftware.b4a.designer" />~\n~    </queries>~\n~)~\n~~\n~'CreateResourceFromFile(Macro, Themes.LightTheme)~\n~SetApplicationAttribute(android:theme, "@style/MyAppTheme")~\n~~\n~CreateResource(values, theme.xml,~\n~<resources>~\n~    <style name="MyAppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">~\n~	 <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>~\n~    </style>~\n~</resources>~\n~)~\n~~\n~AddApplicationText(~\n~  <provider~\n~  android:name="android.support.v4.content.FileProvider"~\n~  android:authorities="$PACKAGE$.provider"~\n~  android:exported="false"~\n~  android:grantUriPermissions="true">~\n~  <meta-data~\n~  android:name="android.support.FILE_PROVIDER_PATHS"~\n~  android:resource="@xml/provider_paths"/>~\n~  </provider>~\n~)~\n~CreateResource(xml, provider_paths,~\n~   <external-files-path name="name" path="" />~\n~)~\n~AddPermission(android.permission.REQUEST_INSTALL_PACKAGES)~\n~~\n~SetApplicationAttribute(android:icon, "@mipmap/ic_launcher")~\n~CreateResource(mipmap-anydpi-v26, ic_launcher.xml,~\n~<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">~\n~    <background android:drawable="@mipmap/background"/>~\n~    <foreground android:drawable="@mipmap/foreground"/>~\n~</adaptive-icon>~\n~)~\n~~\n~AddPermission(android.permission.CHANGE_WIFI_MULTICAST_STATE)~\n~AddPermission(android.permission.SYSTEM_ALERT_WINDOW)~\n~AddPermission(android.permission.CHANGE_NETWORK_STATE)~\n~AddPermission(android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE)~\n~SetServiceAttribute(Service1, android:foregroundServiceType, connectedDevice)
+Module1=AnimatedSignal
+Module2=AsyncStreamsText
+Module3=FTPClient
+Module4=FTPDataConnection
+Module5=FTPServer
+Module6=Service1
+Module7=Starter
+Module8=Utils
 NumberOfFiles=1
 NumberOfLibraries=9
-NumberOfModules=7
-Version=13.4
+NumberOfModules=8
+Version=13.5
 @EndOfDesignText@
 #Region Module Attributes
 	#FullScreen: False
@@ -33,10 +34,19 @@ Version=13.4
 	#SupportedOrientations: unspecified
 	#CanInstallToExternalStorage: False
 #End Region
-	#additionaljar: com.android.support:support-v4
+#Region Macros
+	#Macro: Title, Export, ide://run?File=%B4X%\Zipper.jar&Args=%PROJECT_NAME%.zip
+	#Macro: Title, GitHub, ide://run?File=%WINDIR%\System32\cmd.exe&Args=/c&Args=github&Args=..\..\
+	#Macro: Title, JsonLayouts folder, ide://run?File=%WINDIR%\explorer.exe&Args=%PROJECT%\JsonLayouts
+	#Macro: After Save, Sync Layouts, ide://run?File=%ADDITIONAL%\..\B4X\JsonLayouts.jar&Args=%PROJECT%&Args=%PROJECT_NAME%
+#End Region
+#Region Additional Resources
+	#AdditionalJar: : com.android.support:support-v4
 	#Extends: android.support.v7.app.AppCompatActivity
 	#MultiDex: true
 	#AdditionalRes: ../icon
+	'#BridgeLogger: True
+#End Region
 'Activity module
 Sub Process_Globals
 	Private server As ServerSocket 'ignore - Only used to show the device IP.
@@ -49,8 +59,8 @@ Sub Process_Globals
 	Private DrawOverRequested As Boolean
 End Sub
 
-
 Sub Globals
+	Private lblTitle As Label
 	Private lblIp As Label
 	Private lblStatus As Label
 	Private lblVersion As Label
@@ -59,13 +69,31 @@ Sub Globals
 	Private lblPing As Label
 	Private AnotherProgressBar1 As AnotherProgressBar
 	Private btnStop As Button
+	Private MadeWithLove1 As MadeWithLove
+	Private AnimatedSignal1 As AnimatedSignal
+	'Private Label1 As Label
 End Sub
 
-Sub Activity_Create(firstTime As Boolean)
+Sub Activity_Create (firstTime As Boolean)
 	Activity.LoadLayout("1")
+	lblTitle.Text = Application.LabelName
 	AnotherProgressBar1.BrushOffsetDelta = 6
 	AnotherProgressBar1.ValueChangePerSecond = 100
 	lblVersion.Text = "B4A-Bridge v" & Application.VersionName
+'	Dim c1 As String = Chr(0xF1EB) ' wifi
+'	Dim c2 As String = Chr(0xF04D) ' stop
+'	Dim c3 As String = Chr(0xF071) ' warning
+'	Dim c4 As String = Chr(0xF0C1) ' link
+'	Dim c5 As String = Chr(0xF1F8) ' trash
+'	Dim c6 As String = Chr(0xF144) ' play
+	
+'	Label1.Text = $"[${c1}-${c2}-${c3}-${c4}-${c5}-${c6}]"$
+'	Log(c1)
+'	Log(c2)
+'	Log(c3)
+'	Log(c4)
+'	Log(c5)
+'	Log(c6)
 	Try
 		Dim ftp As Boolean
 		If phone.SdkVersion < 29 Then
@@ -78,6 +106,7 @@ Sub Activity_Create(firstTime As Boolean)
 		Else
 			ftp = False
 			chkFTPServer.Visible = False
+			'chkFTPServer.Enabled = False
 		End If
 		chkFTPServer.Checked = ftp
 		chkFTPServer_CheckedChange(chkFTPServer.Checked)
@@ -86,6 +115,8 @@ Sub Activity_Create(firstTime As Boolean)
 	End Try
 	lblPing.Visible = False
 	DrawOverRequested = False
+	btnStartWireless.Text = Chr(0xF1EB) & " START"
+	btnStop.Text = Chr(0xF04D) & " STOP"
 End Sub
 
 Sub Activity_Resume
@@ -121,11 +152,24 @@ End Sub
 
 Sub UpdateThemeColors
 	If IsNightMode Then
-		btnStartWireless.TextColor = 0xFF58C811
-		btnStop.TextColor = 0xFFFF3333
+		lblIp.TextColor = 0xFFE2E8F0
+		lblStatus.TextColor = 0xFF60A5FA
+		lblVersion.TextColor = 0xFF64748B
+		lblPing.TextColor = 0xFF60A5FA
+		MadeWithLove1.mBase.Color = 0xFF475569
 	Else
-		btnStartWireless.TextColor = 0xFF39800B 
-		btnStop.TextColor = Colors.Red
+		lblIp.TextColor = 0xFF0F172A
+		lblStatus.TextColor = 0xFF1E90FF
+		lblVersion.TextColor = 0xFF94A3B8
+		lblPing.TextColor = 0xFF2563EB
+		'LogColor("lblIp.TextColor", 0xFF0F172A) 'black
+		'LogColor("lblStatus.TextColor", 0xFF1E90FF) 'blue
+		'LogColor("lblVersion.TextColor", 0xFF94A3B8) 'gray
+		'LogColor("lblPing.TextColor", 0xFF2563EB) 'darkblue
+		'LogColor("lblPing.TextColor", 0xFF60A5FA) 'lightblue
+		'LogColor("lblPing.TextColor", 0xFFEF4444) 'red
+		'LogColor("lblPing.TextColor", 0xFF10B981) 'green
+		MadeWithLove1.mBase.Color = 0xFFF8FAFC
 	End If
 End Sub
 
@@ -157,7 +201,6 @@ Private Sub CanRequestPackageInstalls As Boolean
 End Sub
 
 Private Sub CheckNonMarketAppsEnabled As Boolean
-	
 	If phone.SdkVersion < 17 Or phone.SdkVersion >= 21 Then
 		Return phone.GetSettings("install_non_market_apps") = "1"
 	Else
@@ -169,26 +212,46 @@ Private Sub CheckNonMarketAppsEnabled As Boolean
 		global.InitializeStatic("android.provider.Settings.Global")
 		Return global.RunMethod("getString", Array As Object(resolver, "install_non_market_apps")) = "1"
 	End If
-	
 End Sub
 
 Sub UpdateIp
 	CurrentIp = server.GetMyWifiIP
 	If CurrentIp = "127.0.0.1" Or CurrentIp.Contains(":") Then
-		CurrentIp = "Not connected to wireless network."
+		lblIp.TextColor = 0xFFEF4444
+		lblIp.Text = "Not connected to wireless"
+		lblPing.TextColor = 0xFFEF4444
+		lblPing.Text = Chr(0xF071)
+	Else
+		lblIp.TextColor = 0xFF0F172A
+		lblIp.Text = "Device IP: " & CurrentIp
+		lblPing.TextColor = 0xFF10B981
+		lblPing.Text = Chr(0xF1EB)
 	End If
 	FTP_StateChanged
-	lblIp.Text = "My IP: " & CurrentIp
 End Sub
 
 Sub UpdateStatus
 	If Service1.ConnectedStatus Then
-		lblStatus.Text = "Status: " & Chr(0xF0C1)
+		lblStatus.Text = Chr(0xF0C1) & "  Connected"
+		'lblStatus.Typeface = Typeface.DEFAULT_BOLD
+		lblStatus.TextColor = 0xFF10B981
+		btnStop.Visible = True
+		btnStartWireless.Visible = False
+		AnimatedSignal1.SetState("connected")
 	Else
+		'lblStatus.Typeface = Typeface.DEFAULT
 		If BridgeStarted Then
-			lblStatus.Text = "Status: " & Chr(0xF127) & CRLF & "Waiting For connections."
+			lblStatus.Text = Chr(0xF1F8) & "  Waiting for connections"
+			lblStatus.TextColor = 0xFFF59E0B
+			btnStop.Visible = True
+			btnStartWireless.Visible = False
+			AnimatedSignal1.SetState("scanning")
 		Else
-			lblStatus.Text = "Status: " & Chr(0xF127) & CRLF & "Press on Start to listen for connections."
+			lblStatus.Text = Chr(0xF144) & "  Press Start to listen"
+			lblStatus.TextColor = 0xFF1E90FF
+			btnStartWireless.Visible = True
+			btnStop.Visible = False
+			AnimatedSignal1.SetState("idle")
 		End If
 	End If
 	FTP_StateChanged
@@ -240,10 +303,9 @@ Sub Activity_PermissionResult (Permission As String, Result As Boolean)
 		ToastMessageShow("Cannot start FTP Server without WRITE_EXTERNAL permission.", True)
 	End If
 	StartService(Service1)
-	
 End Sub
 
-Private Sub chkFTPServer_CheckedChange(Checked As Boolean)
+Private Sub chkFTPServer_CheckedChange (Checked As Boolean)
 	FTPServerEnabled = Checked
 	If Checked And BridgeStarted And (Service1.FTP.IsInitialized = False Or Service1.FTP.Running = False) Then
 		btnStartWireless_Click
@@ -254,8 +316,10 @@ End Sub
 
 Public Sub UdpPing
 	lblPing.SetVisibleAnimated(500, True)
+	AnimatedSignal1.SetState("scanning")
 	Sleep(700)
 	lblPing.SetVisibleAnimated(200, False)
+	UpdateStatus
 End Sub
 
 Public Sub UpdateFileProgress
@@ -264,8 +328,8 @@ Public Sub UpdateFileProgress
 		AnotherProgressBar1.SetValueNoAnimation(0)
 	Else
 		If AnotherProgressBar1.Visible = False Then
-			 AnotherProgressBar1.Visible = True
-			 AnotherProgressBar1.SetValueNoAnimation(0)
+			AnotherProgressBar1.Visible = True
+			AnotherProgressBar1.SetValueNoAnimation(0)
 		End If
 		AnotherProgressBar1.Value = Round(Service1.currentAPKWritten  / Service1.currentAPKTotal * 100)
 	End If
@@ -292,7 +356,7 @@ Public Sub GetDrawOverPermission As ResumableSub
 	Return True
 End Sub
 
-Private Sub StartActivityForResult(i As Intent)
+Private Sub StartActivityForResult (i As Intent)
 	Dim jo As JavaObject = GetBA
 	ion = jo.CreateEvent("anywheresoftware.b4a.IOnActivityResult", "ion", Null)
 	jo.RunMethod("startActivityForResult", Array As Object(ion, i))
