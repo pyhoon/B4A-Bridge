@@ -387,6 +387,7 @@ End Sub
 Sub PE_PackageAdded (Package As String, Intent As Intent)
 	Log("PackageAdded: " & Package)
 End Sub
+
 Sub PE_ConnectivityChanged (NetworkType As String, State As String, Intent As Intent)
 	If NetworkType = "WIFI" Then CallSub(Main, "UpdateIp")
 End Sub
