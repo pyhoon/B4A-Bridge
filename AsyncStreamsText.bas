@@ -53,6 +53,7 @@ Private Sub astreams_NewData (Buffer() As Byte)
 	Next
 	If start > 0 Then sb.Remove(0, start)
 End Sub
+
 Private Sub astreams_Terminated
 	CallSubDelayed(mTarget, mEventName & "_Terminated")
 End Sub
