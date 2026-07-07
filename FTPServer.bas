@@ -29,7 +29,7 @@ Public Sub Initialize (Callback As Object, EventName As String)
 End Sub
 
 'Sets the control part and the data ports range
-Public Sub SetPorts(ControlPort As Int, DataPortBegin As Int, DataPortEnd As Int)
+Public Sub SetPorts (ControlPort As Int, DataPortBegin As Int, DataPortEnd As Int)
 	dataPorts.Initialize
 	For i = DataPortBegin To DataPortEnd
 		dataPorts.Put(i, False)
@@ -89,7 +89,6 @@ Private Sub ssocket_NewConnection (Successful As Boolean, NewSocket As Socket)
 	End If
 	If stopped = False Then ssocket.Listen
 End Sub
-
 
 Private Sub GetDataPort As Int
 	For Each i As Int In dataPorts.Keys
